@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneroCore", "MoneroCore\MoneroCore.csproj", "{5D04AE4C-3453-4982-BC2C-627C6FA94250}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D04AE4C-3453-4982-BC2C-627C6FA94250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D04AE4C-3453-4982-BC2C-627C6FA94250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D04AE4C-3453-4982-BC2C-627C6FA94250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D04AE4C-3453-4982-BC2C-627C6FA94250}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E81B45D-FC85-40A8-9BCF-0F07459E699C}
+	EndGlobalSection
+EndGlobal

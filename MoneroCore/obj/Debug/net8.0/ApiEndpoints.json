@@ -1,0 +1,75 @@
+[
+  {
+    "ContainingType": "WeatherForecastController",
+    "Method": "StartMining",
+    "RelativePath": "WeatherForecast/start/{pool}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pool",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WeatherForecastController",
+    "Method": "GetAllXmrigProcesses",
+    "RelativePath": "WeatherForecast/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WeatherForecastController",
+    "Method": "GetXmrigOutput",
+    "RelativePath": "WeatherForecast/status/{pid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WeatherForecastController",
+    "Method": "StopMiningByPid",
+    "RelativePath": "WeatherForecast/stop/{pid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WeatherForecastController",
+    "Method": "StopAllMiningProcesses",
+    "RelativePath": "WeatherForecast/stopall",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
